@@ -12,3 +12,4 @@ if command -v git >/dev/null 2>&1; then
     cd ~-
     clear
 fi
+##
