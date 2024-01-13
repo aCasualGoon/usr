@@ -10,4 +10,5 @@ if command -v git >/dev/null 2>&1; then
     cd $SCRIPT_DIR
     git pull
     cd ~-
+    clear
 fi
