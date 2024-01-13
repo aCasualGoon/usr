@@ -22,5 +22,7 @@ for file in $SCRIPT_DIR/bash_functions/*.sh; do
     source "$file"
 done
 
+echo e
+
 # set git config
 export GIT_CONFIG=$SCRIPT_DIR/.gitconfig
