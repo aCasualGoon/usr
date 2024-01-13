@@ -21,3 +21,6 @@ source $SCRIPT_DIR/bash_aliases
 for file in $SCRIPT_DIR/bash_functions/*.sh; do
     source "$file"
 done
+
+# set git config
+export GIT_CONFIG=$SCRIPT_DIR/.gitconfig
