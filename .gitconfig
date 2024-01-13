@@ -4,7 +4,7 @@
 
 [user]
 	email = acasualgoon@gmail.com
-	name = aCasualGoon
+	name = goon
 [credential "https://github.com"]
 	helper = 
 	helper = !/usr/bin/gh auth git-credential
