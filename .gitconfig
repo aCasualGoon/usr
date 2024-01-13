@@ -1,0 +1,17 @@
+# include this from your .gitconfig
+# [include]
+# 	path = ~/.config/usr/.gitconfig
+
+[user]
+	email = acasualgoon@gmail.com
+	name = aCasualGoon
+[credential "https://github.com"]
+	helper = 
+	helper = !/usr/bin/gh auth git-credential
+[credential "https://gist.github.com"]
+	helper = 
+	helper = !/usr/bin/gh auth git-credential
+[core]
+	editor = nano
+[init]
+	defaultBranch = main
