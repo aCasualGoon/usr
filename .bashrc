@@ -20,6 +20,9 @@ PS1='\033[30;47m\w $(git branch 2> /dev/null | grep "^*" | sed "s/* /@/")◀\033
 # load environment variables
 sourceif $SCRIPT_DIR/bash_env
 
+# load local environment variables
+sourceif $SCRIPT_DIR/local_bash_env
+
 # load aliases
 sourceif $SCRIPT_DIR/bash_aliases
 
