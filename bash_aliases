@@ -29,6 +29,7 @@ else
     function cd/  { [ "$#" -eq 0 ] && cd / || cd   /"$@"; }
     function cd-  { [ "$#" -eq 0 ] && cd ~-|| cd ~-/"$@"; }
 fi
+alias ..='cd..'
 
 # -------- cat -------- #
 if command -v bat >/dev/null 2>&1; then
