@@ -1,5 +1,4 @@
-# source this file from your .bashrc
-# [[ -f ~/.config/usr/.bashrc ]] && source ~/.config/usr/.bashrc
+# source this file from your .bashrc to load the custom configuration
 
 SCRIPT_DIR=$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )
 
