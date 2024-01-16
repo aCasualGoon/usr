@@ -6,6 +6,12 @@ alias ls='ls --color=auto'
 alias ll='ls -lAF'
 alias la='ls -A'
 
+# -------- cp -------- #
+alias cp='cp -r'
+
+# -------- mv -------- #
+alias mv='mv -r'
+
 # -------- grep -------- #
 alias grep='grep --color=auto'
 
