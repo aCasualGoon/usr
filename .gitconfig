@@ -19,3 +19,4 @@
 [alias]
 	# clone one of my repos by name
 	cloneme = !sh -c 'git clone https://github.com/acasualgoon/$1' -
+	clonemy = !sh -c 'git clone https://github.com/acasualgoon/$1' -

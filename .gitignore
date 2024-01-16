@@ -1,2 +1,2 @@
-# ignore any file starting with _local
-_local*
+#ignore everything inside the local directory
+local/*
