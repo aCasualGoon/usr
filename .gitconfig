@@ -3,7 +3,7 @@
 # 	path = ~/.config/usr/.gitconfig
 
 [user]
-	email = acasualgoon@gmail.com
+	email = acasualgoon
 	name = goon
 [credential "https://github.com"]
 	helper = 
@@ -19,4 +19,9 @@
 [alias]
 	# clone one of my repos by name
 	cloneme = !sh -c 'git clone https://github.com/acasualgoon/$1' -
-	clonemy = !sh -c 'git clone https://github.com/acasualgoon/$1' -
+	
+	# change the configuration in this file
+	configure = !sh -c 'git config --file ~/.config/usr/.gitconfig $1 $2' -
+[push]
+	default = current
+	autoSetupRemote = origin

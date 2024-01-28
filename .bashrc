@@ -50,7 +50,6 @@ if command -v pkgfile >/dev/null 2>&1; then
     }
 fi
 
-
 # set git config
 export GIT_CONFIG=$SCRIPT_DIR/.gitconfig
 
