@@ -23,5 +23,7 @@
 	# change the configuration in this file
 	configure = !sh -c 'git config --file ~/.config/usr/.gitconfig $1 $2' -
 [push]
+	# push to the current branch by default
 	default = current
-	autoSetupRemote = origin
+	# automatically add new branches to the remote
+	autoSetupRemote = true
