@@ -20,7 +20,16 @@ alias rmr='rm -r'
 alias rmv='rm -rf'
 
 # -------- pacman -------- #
-alias pacman='sudo pacman'
+alias pacinst='sudo pacman -S'
+alias pacinstall='sudo pacman -S'
+alias pacrem='sudo pacman -R'
+alias pacremove='sudo pacman -R'
+alias pacup='sudo pacman -Syu'
+alias pacupdate='sudo pacman -Syu'
+alias pacsearch='pacman -Ss'
+alias pacfind='pacman -Ss'
+alias pacinfo='pacman -Si'
+alias pacshow='pacman -Si'
 
 # -------- cd -------- #
 # if shell supports it, use ANSI escape codes to clear the line
