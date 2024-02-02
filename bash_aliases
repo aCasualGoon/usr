@@ -19,6 +19,9 @@ alias grep='grep --color=auto'
 alias rmr='rm -r'
 alias rmv='rm -rf'
 
+# -------- pacman -------- #
+alias pacman='sudo pacman'
+
 # -------- cd -------- #
 # if shell supports it, use ANSI escape codes to clear the line
 if [[ "$-" == *i* && "$TERM" =~ xterm.*|rxvt.*|vt100|linux|screen.* ]]; then
